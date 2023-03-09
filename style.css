@@ -1,0 +1,147 @@
+body {
+  background-color: #0d192c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box{
+  width: 302px;
+  height:302px;
+  background-color: #00FFF8;
+  border-radius:11px;
+  position: relative;
+  cursor: pointer;
+}
+.card {
+  max-width: 300px;
+  background-color: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  padding: 24px;
+
+}
+.view{
+  position: absolute;
+  width:48px;
+  height:48px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+.nft {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.nft-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27.72px;
+  font-style: normal;
+  margin: 24px 24px 16px 0px;
+}
+
+.paragraph {
+  color: #8bacd9;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.price-and-day {
+  margin-top: 26px;
+  font-size: 16px;
+  line-height: 20.16px;
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  color: #00fff8;
+  font-weight: 600;
+  padding-left:5px;
+}
+
+.day {
+  color: #8bacd9;
+  font-weight: 400;
+  padding-left:5px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #2e405a;
+    margin: 10px 0;
+
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.autor-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.autor {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  color: #8bacd9;
+  margin-right: 80px;
+}
+.nft-autor {
+  margin-left: 5px;
+  color: #ffffff;
+}
+.info{
+  display:flex;
+  text-align: center;
+}
+.svg1{
+  width:11px;
+  height:18px;
+}
+.svg2{
+  width:16px;
+  height:16px;
+  margin-top:1.45px;
+}
+.box:hover .nft{
+  opacity: 0.5;
+}
+.box:hover .view{
+  display:block;
+}
+
+.nft-name:hover{
+  color:#00FFF8;
+  cursor: pointer;
+}
+
+.nft-autor:hover{
+  color:#00FFF8;
+  cursor: pointer;
+}
+
+/* styles for mobile  resposive design*/
+@media only screen and (max-width: 375px){
+  .card {
+    width: 280px;
+  }
+  .autor {
+    margin-right: 28px;
+  }
+  .box{
+    width: 278px;
+    height:278px;
+    
+  }
+  
+}
+
