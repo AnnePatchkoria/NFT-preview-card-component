@@ -5,7 +5,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .box{
   width: 302px;
   height:302px;
@@ -35,7 +34,6 @@ body {
   max-width: 100%;
   border-radius: 8px;
 }
-
 .nft-name {
   color: #ffffff;
   font-weight: 600;
@@ -43,21 +41,24 @@ body {
   line-height: 27.72px;
   font-style: normal;
   margin: 24px 24px 16px 0px;
+  font-family:'Outfit', sans-serif;
+  
 }
-
 .paragraph {
   color: #8bacd9;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
+  font-family:'Outfit', sans-serif;
+ 
 }
-
 .price-and-day {
   margin-top: 26px;
   font-size: 16px;
   line-height: 20.16px;
   display: flex;
   justify-content: space-between;
+  font-family:'Outfit', sans-serif;
 }
 .price {
   color: #00fff8;
@@ -94,6 +95,7 @@ body {
   margin-bottom: 15px;
   color: #8bacd9;
   margin-right: 80px;
+  font-family:'Outfit', sans-serif;
 }
 .nft-autor {
   margin-left: 5px;
